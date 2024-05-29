@@ -47,6 +47,7 @@ function geraSenha(){
   }
   campoSenha.value = senha;
 }
+// codigo emitido
   let senha = '';
   for (let i = 0; i < tamanhoSenha; i++){
   let numeroAleatorio = Math.random()*letrasMaiusculas.length;
